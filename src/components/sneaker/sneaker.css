@@ -18,7 +18,7 @@ a:active,
 a:hover {
   outline: 0;
 }
-.logoNeon {
+h1 {
   font-size: 2em;
 }
 abbr[title] {
@@ -140,10 +140,9 @@ input::-moz-focus-inner {
 
 .sneaker {
   font-family: "neontubes";
- 
 }
 
-.sneaker p {
+.sneaker h1 {
   margin: 0;
   -webkit-transform: translateZ(0) translate3D(0, 0, 0);
   transform: translateZ(0) translate3D(0, 0, 0);
@@ -236,7 +235,26 @@ input::-moz-focus-inner {
 }
 /* Styling for neon header text END */
 
-
+/* Styling for neon button START */
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: 0;
+  cursor: pointer;
+  min-width: 48px;
+  min-height: 36px;
+  background-color: #ff00dd;
+  color: #ffffff;
+  line-height: 1;
+  text-transform: uppercase;
+  padding: 0.66em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-size: 40px;
+}
 
 .button.neon,
 button.neon,

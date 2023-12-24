@@ -9,9 +9,9 @@ export default function Header() {
     <header>
       <nav className=" headerNav flex items-center">
        
-        <Link href="/">
+      
           <Sneaker />
-        </Link>
+       
         
       
          <DarkTheme />
