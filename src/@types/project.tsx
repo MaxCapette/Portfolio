@@ -4,8 +4,8 @@ export default interface Project {
     description: string;
     images: string[];
     link?: string;
-    githubLink1: string;
-    githubLink2: string;
+    githubLink1?: string;
+    githubLink2?: string;
     comment?: string;
   }
   

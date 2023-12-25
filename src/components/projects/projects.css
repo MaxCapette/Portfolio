@@ -22,6 +22,9 @@ border: 1px solid rgba(255, 255, 255, 0.28);
     color: var(--bg-0);
     font-size: 2rem;
     margin-bottom: 2rem;
+    @media screen and (max-width: 560px) {
+        font-size: 1.5rem;
+    }
 }
 .projects {
     display: flex;

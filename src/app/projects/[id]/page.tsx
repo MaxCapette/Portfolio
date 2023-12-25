@@ -35,7 +35,7 @@ export default function Projects({ params }: { params: { id: string } }) {
           <Link className="projectLinks" href={project.githubLink1}>Link to github</Link>
         )}
         {project.githubLink2 && (
-          <Link className="projectLinks" href={project.githubLink2}>Link to github</Link>
+          <Link className="projectLinks" href={project.githubLink2}>Link to github Back-end</Link>
         )}
         <Link  href="/"><button className="backButton">Back</button></Link>
       </div>
