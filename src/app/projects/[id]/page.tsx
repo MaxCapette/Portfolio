@@ -21,15 +21,17 @@ export default function Projects({ params }: { params: { id: string } }) {
             width={500}
             height={1000}
           />
-          <Image
+          {project.images[2] && (<Image
             src={project.images[2]}
             alt={project.title}
             width={500}
             height={1000}
-          />
+          />)}
+          
         </div>
         <p>{project.description}</p>
         <p>{project.comment}</p>
+        <p>{project.login}</p>
         {project.link && <Link className="projectLinks" href={project.link}>Link to website</Link>}
         {project.githubLink1 && (
           <Link className="projectLinks" href={project.githubLink1}>Link to github</Link>

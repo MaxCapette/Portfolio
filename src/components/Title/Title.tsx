@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './title.css';
 
 export default function Title() {
@@ -9,5 +10,7 @@ export default function Title() {
         <h2>
             I&apos;m a front-end developper
         </h2>
+        <Link  href="/pdf/CV_2023.pdf"><button className="MonCV">CV (fr)</button></Link>
+        <Link  href="/html/resume.html"><button className="MonCV">Resume</button></Link>
     </div>
     )}

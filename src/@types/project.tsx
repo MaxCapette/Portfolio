@@ -7,5 +7,6 @@ export default interface Project {
     githubLink1?: string;
     githubLink2?: string;
     comment?: string;
+    login?: string;
   }
   

@@ -18,13 +18,13 @@
 .xp:nth-child(odd) {
     flex-direction: row-reverse;
     @media screen and (min-width: 1500px) {
-      margin-left: 600px;  
+      margin-left: 620px;  
     }
     
 }
 .xp:nth-child(even) {
     @media screen and (min-width: 1500px) {
-      margin-right: 600px;  
+      margin-right: 620px;  
     }
     
 }
