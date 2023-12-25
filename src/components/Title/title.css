@@ -4,13 +4,20 @@
     min-height: 50vh;
 }
 
-.MonCV {
+.monCV {
     background-color: var(--revert);
     color: var(--bg-0);
     transition: all 0.25s ease;
 }
-.MonCV:hover {
+.monCV:hover {
     transform: scale(1.05);
     background-color: var(--bg-0);
     color: var(--revert);
+}
+@media screen and (max-width: 1000px) {
+    .monCV {
+       width: 150px;
+       font-size: 1.5rem;
+    }
+    
 }

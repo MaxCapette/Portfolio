@@ -85,7 +85,7 @@ export const projects: Project[] = [
     {
         id: 9,
         title: 'Orecipe',
-        description: 'React Typsecript',
+        description: 'React Typescript',
         images: ['/projects/orecipe1.png', '/projects/orecipe2.png'],
         link: 'https://o-recipes.vercel.app/',
         githubLink1: 'https://github.com/MaxCapette/Orecipes',

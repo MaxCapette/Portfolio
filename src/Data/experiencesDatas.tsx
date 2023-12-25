@@ -45,7 +45,7 @@ export const experiences: Experience[] = [
         id: 6,
         date: '2023',
         title: 'Internship',
-        description: 'Intern at Titovideo',
+        description: 'Intern as fullstack web dev at Titovideo',
         image: '/about/15.png',
         bool: false,
     },
