@@ -1,9 +1,11 @@
 .title {
     padding-top: 130px;
     text-align: center;
-    min-height: 50vh;
+    min-height: 70vh;
 }
-
+.titleash2 {
+    margin-bottom: 10vh;
+}
 .monCV {
     background-color: var(--revert);
     color: var(--bg-0);

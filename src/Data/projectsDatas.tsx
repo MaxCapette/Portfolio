@@ -49,7 +49,7 @@ export const projects: Project[] = [
         link: 'https://www.titovideo.fr/',
         githubLink1: '',
         githubLink2: '',
-        comment: 'Shopifly is a shop website with a cart and a payment system. It is a project that I did with a team of 3 people. I was in charge of the payment system and the cart.',
+        comment: 'Wordpress website, made in internship, with elementor, made the responsive,some design and the SEO',
     },
     {
         id: 6,
@@ -90,7 +90,7 @@ export const projects: Project[] = [
         link: 'https://o-recipes.vercel.app/',
         githubLink1: 'https://github.com/MaxCapette/Orecipes',
         githubLink2: '',
-        comment: " Projet avec une API swagger, avec login et favoris, utilisation de React avec Redux Toolkit et linter d'Airbnb, , réalisé en pair programming en formation.",
+        comment: "  React with Redux Toolkit and Airbnb linter, made in pair programming.",
         login: 'identifiants: bob@mail.io / bobo',
     },
     {
@@ -112,7 +112,7 @@ export const projects: Project[] = [
         link: '',
         githubLink1: 'https://github.com/MaxCapette/Order-front',
         githubLink2: 'https://github.com/MaxCapette/Order-back',
-        comment: "Projet d'apothéose de fin de formation O'Clock, React avec vite, typescript et redux pour le front, php avec symfony pour le back, réalisé en groupe",
+        comment: "Apotheosis project at the end of the training O'Clock, React with vite, typescript and redux for the front, php with symfony for the back, carried out in a group of 5",
     },
     
     {
@@ -123,6 +123,6 @@ export const projects: Project[] = [
         link: 'https://shop-flax-seven.vercel.app/',
         githubLink1: '',
         githubLink2: '',
-        comment: 'Shopifly is a shop website with a cart and a payment system. It is a project that I did with a team of 3 people. I was in charge of the payment system and the cart.',
+        comment: 'Shopifly is a mockup eshop. It is a project that I made to get more familiar with NextJs, made with React, NextJs, Typescript and Tailwindcss.',
     },
 ];

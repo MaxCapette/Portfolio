@@ -10,19 +10,20 @@ footer {
     align-items: center;
     gap: 30px;
     @media screen and (max-width: 500px) {
-        flex-direction: column;
-        
-        
+        flex-direction: column; 
     }
 
 }
 .footerAside {
     display: flex;
-    flex-direction: column;
+    align-items: center;
 
 }
 a img {
     color: var(--color-0);
     text-decoration: none;
     color:#0F0F0F
+}
+.hashtag {
+   margin: 5px;
 }

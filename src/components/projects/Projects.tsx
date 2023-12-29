@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <div className="projectContainer" >
       <h2>Projects</h2>
-      <p className="projectsIntro">Here are different projects that I have carried out.</p>
+      <p className="projectsIntro">Here is a selection of diverse projects I&apos;ve undertaken..</p>
       <div className="projects">
       {reversedProjects.map(project => (
         
