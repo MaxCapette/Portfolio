@@ -10,7 +10,7 @@ import Loading from "./loading";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "myProfolio",
+  title: "myPortfolio",
   description: "Welcome to my portfolio",
 };
 
