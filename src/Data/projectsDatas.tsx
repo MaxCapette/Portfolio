@@ -41,16 +41,7 @@ export const projects: Project[] = [
         githubLink2: '',
         comment: 'Small chatbox that I made to practice react and typescript in pair programming.',
     },
-    {
-        id: 11,
-        title: 'Titovideo',
-        description: 'wordpress elementor',
-        images: ['/projects/titovideo1.png', '/projects/titovideo2.png', '/projects/titovideo3.png'],
-        link: 'https://www.titovideo.fr/',
-        githubLink1: '',
-        githubLink2: '',
-        comment: 'Wordpress website, made in internship, with elementor, made the responsive,some design and the SEO',
-    },
+    
     {
         id: 6,
         title: 'Pokedex',
@@ -94,7 +85,7 @@ export const projects: Project[] = [
         login: 'identifiants: bob@mail.io / bobo',
     },
     {
-        id: 5,
+        id: 10,
         title: 'Oshop',
         description: 'PHP Bootstrap',
         images: ['/projects/oshop-front.png', '/projects/oshop-back.png'],
@@ -104,19 +95,10 @@ export const projects: Project[] = [
         comment: "Project made in tutors,Php vanilla and Bootstrap Apache server, Adminer, MVC, CRUD",
         login: '',
     },
-    {
-        id: 12,
-        title: "O'rder",
-        description: 'React Symfony Typescript Tailwindcss',
-        images: ['/projects/order1.png', '/projects/order2.png', '/projects/order3.png'],
-        link: '',
-        githubLink1: 'https://github.com/MaxCapette/Order-front',
-        githubLink2: 'https://github.com/MaxCapette/Order-back',
-        comment: "Apotheosis project at the end of the training O'Clock, React with vite, typescript and redux for the front, php with symfony for the back, carried out in a group of 5",
-    },
+  
     
     {
-        id: 10,
+        id: 12,
         title: 'Shopifly',
         description: 'React NextJs Typescript Tailwindcss',
         images: ['/projects/shopifly1.png', '/projects/shopifly2.png', '/projects/shopifly3.png'],
@@ -124,5 +106,25 @@ export const projects: Project[] = [
         githubLink1: '',
         githubLink2: '',
         comment: 'Shopifly is a mockup eshop. It is a project that I made to get more familiar with NextJs, made with React, NextJs, Typescript and Tailwindcss.',
+    },
+    {
+        id: 5,
+        title: 'Titovideo',
+        description: 'wordpress elementor',
+        images: ['/projects/titovideo1.png', '/projects/titovideo2.png', '/projects/titovideo3.png'],
+        link: 'https://www.titovideo.fr/',
+        githubLink1: '',
+        githubLink2: '',
+        comment: 'Wordpress website, made in internship, with elementor, made the responsive,some design and the SEO',
+    },
+    {
+        id: 11,
+        title: "O'rder",
+        description: 'React Symfony Typescript Tailwindcss',
+        images: ['/projects/order1.png', '/projects/order2.png', '/projects/order3.png'],
+        link: '',
+        githubLink1: 'https://github.com/MaxCapette/Order-front',
+        githubLink2: 'https://github.com/MaxCapette/Order-back',
+        comment: "Apotheosis project at the end of the training O'Clock, React with vite, typescript and redux for the front, php with symfony for the back, carried out in a group of 5",
     },
 ];
