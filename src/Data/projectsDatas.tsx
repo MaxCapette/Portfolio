@@ -94,7 +94,7 @@ export const projects: Project[] = [
         login: 'identifiants: bob@mail.io / bobo',
     },
     {
-        id: 10,
+        id: 5,
         title: 'Oshop',
         description: 'PHP Bootstrap',
         images: ['/projects/oshop-front.png', '/projects/oshop-back.png'],
