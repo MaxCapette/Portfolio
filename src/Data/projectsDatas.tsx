@@ -42,7 +42,7 @@ export const projects: Project[] = [
         comment: 'Small chatbox that I made to practice react and typescript in pair programming.',
     },
     {
-        id: 5,
+        id: 11,
         title: 'Titovideo',
         description: 'wordpress elementor',
         images: ['/projects/titovideo1.png', '/projects/titovideo2.png', '/projects/titovideo3.png'],
@@ -105,7 +105,7 @@ export const projects: Project[] = [
         login: '',
     },
     {
-        id: 11,
+        id: 12,
         title: "O'rder",
         description: 'React Symfony Typescript Tailwindcss',
         images: ['/projects/order1.png', '/projects/order2.png', '/projects/order3.png'],
@@ -116,7 +116,7 @@ export const projects: Project[] = [
     },
     
     {
-        id: 12,
+        id: 10,
         title: 'Shopifly',
         description: 'React NextJs Typescript Tailwindcss',
         images: ['/projects/shopifly1.png', '/projects/shopifly2.png', '/projects/shopifly3.png'],
