@@ -103,7 +103,7 @@ export const projects: Project[] = [
         description: 'React NextJs Typescript Tailwindcss',
         images: ['/projects/shopifly1.png', '/projects/shopifly2.png', '/projects/shopifly3.png'],
         link: 'https://shop-flax-seven.vercel.app/',
-        githubLink1: '',
+        githubLink1: 'https://github.com/MaxCapette/Shop',
         githubLink2: '',
         comment: 'Shopifly is a mockup eshop. It is a project that I made to get more familiar with NextJs, made with React, NextJs, Typescript and Tailwindcss.',
     },
