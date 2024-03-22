@@ -10,7 +10,7 @@ export default function Title() {
         <h2 className='titleash2'>
             I&apos;m a front-end dev.
         </h2>
-        <Link  href="/pdf/CV_2024-03-21_Maxime_Capette.pdf"><button className="monCV">CV (fr)</button></Link>
+        <Link  href="/pdf/CV_2024-03-22_Maxime_Capette.pdf"><button className="monCV">CV (fr)</button></Link>
         <Link  href="/html/resume.html"><button className="monCV">Resume</button>
         </Link>
     </div>

@@ -127,4 +127,14 @@ export const projects: Project[] = [
         githubLink2: 'https://github.com/MaxCapette/Order-back',
         comment: "Apotheosis project at the end of the training O'Clock, React with vite, typescript and redux for the front, php with symfony for the back, carried out in a group of 5",
     },
+    {
+        id: 13,
+        title: "EasyGPU",
+        description: 'React NextJs Typescript Tailwindcss',
+        images: ['/projects/easygpu1.png', '/projects/easygpu1.png'],
+        link: 'https://easygpu.vercel.app/',
+        githubLink1: '',
+        githubLink2: '',
+        comment: "Shop I made for a client, made with React, NextJs, Typescript and Tailwindcss.",
+    },
 ];
