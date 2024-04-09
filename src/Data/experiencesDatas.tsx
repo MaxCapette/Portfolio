@@ -51,8 +51,17 @@ export const experiences: Experience[] = [
     },
     {
         id: 7,
-        date: '2014-2016',
-        title: 'Project 6',
+        date: '2024',
+        title: 'Freelance',
+        description: 'I am currently doing freelance work',
+        image: '/about/freelance.jpeg',
+        bool: false,
+    }
+    ,
+    {
+        id: 8,
+        date: '2024',
+        title: 'To be continued',
         description: 'description',
         image: '/about/To be continued.png',
         bool: true,

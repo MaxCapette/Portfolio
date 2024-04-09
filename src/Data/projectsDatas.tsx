@@ -135,6 +135,16 @@ export const projects: Project[] = [
         link: 'https://easygpu.vercel.app/',
         githubLink1: '',
         githubLink2: '',
-        comment: "Shop I made for a client, made with React, NextJs, Typescript and Tailwindcss.",
+        comment: "Mockup I made for a client, made with React, NextJs, Typescript and Tailwindcss.",
+    }, 
+    {
+        id: 14,
+        title: "EasyGPU",
+        description: 'Shopify',
+        images: ['/projects/easygpushopify1.png', '/projects/easygpushopify2.jpg', '/projects/easygpushopify3.jpg'],
+        link: 'https://www.easygpu.fr/',
+        githubLink1: '',
+        githubLink2: '',
+        comment: "Shop I made for a client, with Shopify.",
     },
 ];
