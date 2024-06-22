@@ -13,7 +13,9 @@ export default function Projects({ params }: { params: { id: string } }) {
   return (
     <main className="main flex min-h-screen flex-col items-center justify-between py-32">
       <div className="projectMain">
-        <h2>{project.title}</h2>
+        <div className="flex items-center">  <h2>{project.title}</h2>
+        <Link  href="/"><button className="backButton">Back</button></Link></div>
+      
         <div className="projectImages">
           <Image
             src={project.images[1]}

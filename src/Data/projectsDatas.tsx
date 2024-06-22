@@ -191,7 +191,7 @@ export const projects: Project[] = [
         id: 19,
         title: "Useless Facts",
         description: 'NextJs Versel Typescript Tailwindcss',
-        images: ['/projects/dom1.png', '/projects/dom2.png', '/projects/dom3.png'],
+        images: ['/projects/dom1.webp', '/projects/dom2.webp', '/projects/dom3.webp'],
         link: 'https://don-xi.vercel.app/',
         githubLink1: 'https://github.com/MaxCapette/don',
         githubLink2: '',
