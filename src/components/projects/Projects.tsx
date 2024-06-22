@@ -13,7 +13,7 @@ export default function Projects() {
       <h2>Projects</h2>
       <p className="projectsIntro">Here is a selection of diverse projects I&apos;ve undertaken..</p>
       <div className="projects">
-      {reversedProjects.map(project => (
+      {projects.map(project => (
         
           <div key={project.id} >
             <Link className="project" href={`projects/${project.id}`}>
