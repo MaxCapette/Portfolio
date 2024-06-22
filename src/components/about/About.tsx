@@ -13,7 +13,8 @@ export default function About() {
             
           <div className="xp" key={xp.id}>
             {xp.bool ? 
-            <div className="meImage"><Image  src="/moi.png" alt={xp.title} width={100} height={100} /> </div>
+            <div className="meImage">
+              <Image  src="/moi.png" alt={xp.title} width={100} height={100} /> </div>
             
            : 
            ( <div className="xpDetails">
@@ -23,13 +24,14 @@ export default function About() {
               </div>)
         }
             
-            <Image
+            {/* <Image
               className="xpImage"
               src={xp.image}
               alt={xp.title}
               width={250}
               height={250}
-            />
+            /> */}
+            <img className="xpImage" src={xp.image} alt={xp.title} />
           </div>
         ))}
       </div>
