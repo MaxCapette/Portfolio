@@ -19,13 +19,13 @@ export default function Projects({ params }: { params: { id: string } }) {
         </div>
       
         <div className="projectImages">
-          <Image
+          <img
             src={project.images[1]}
             alt={project.title}
             width={500}
             height={1000}
           />
-          {project.images[2] && (<Image
+          {project.images[2] && (<img
             src={project.images[2]}
             alt={project.title}
             width={500}
