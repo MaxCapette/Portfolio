@@ -17,7 +17,8 @@ export default function Projects() {
         
           <div key={project.id} >
             <Link className="project" href={`projects/${project.id}`}>
-            <Image className="projectImage" src={project.images[0]} alt={project.title} width={1000} height={500} />
+            {/* <Image className="projectImage" src={project.images[0]} alt={project.title} width={1000} height={500} /> */}
+<img src={project.images[0]} alt={project.title} />
             <h3>{project.title}</h3>
             <p>{project.description}</p>
          
